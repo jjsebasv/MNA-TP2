@@ -1,0 +1,16 @@
+[Steps]
+https://en.wikipedia.org/wiki/Mel-frequency_cepstrum
+
+[1]
+http://matlabgeeks.com/tips-tutorials/how-to-do-a-fourier-transform-in-matlab/
+
+[2]
+http://www.mathworks.com/matlabcentral/answers/67283-need-fft-code-for-matlab-not-built-in
+
+[3]
+http://www.dsprelated.com/freebooks/sasp/Overlap_Add_Decomposition.html
+
+[Data]
+
+[d1]
+http://dsp.stackexchange.com/questions/1793/how-important-is-the-pre-emphasis-stage-in-mfcc
