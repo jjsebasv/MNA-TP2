@@ -28,23 +28,17 @@ function coefs = melFreqCep (fm, signal, coef, frBase1, frBase2, components)
 	endfor
 
 	filterbanks = get_filterbanks(samples, fm, components, 300);
-	%todo
-		%get_filterbanks(samples, fm, componets, n)
 
 	pr = filterbank_frames(1:(samples/2 + 1),:) * filterbank;
 
 	% 6 - Get the coefs 
-	for i = 1:frames_cant						% first 12
+	for i = 1:frames_cant				% first 12
 		coef_n(:,i) = mel_cepstrum(pr(:,1));
 	endfor 
 
-	for i = 1:frames_cant						% 13th
+	for i = 1:frames_cant				% 13th
 		coef_n(13,i) = log_energy(sig_frames(:,i));
 	endfor
-
-	%todo
-		% mel_cepstrum(signal)
-		% log_energy(sisnal)
 
 	% 7 - Get delta coefs
 	for i = 1:frames_cant
@@ -53,9 +47,6 @@ function coefs = melFreqCep (fm, signal, coef, frBase1, frBase2, components)
 			coef_n(j + 13,i) = d(j);
 		endfor
 	endfor
-
-	%todo
-		%deltas(coef)
 
 	coefs = coef_n;
 endfunction 
