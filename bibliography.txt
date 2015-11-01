@@ -10,7 +10,16 @@ http://www.mathworks.com/matlabcentral/answers/67283-need-fft-code-for-matlab-no
 [3]
 http://www.dsprelated.com/freebooks/sasp/Overlap_Add_Decomposition.html
 
+[4]
+http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/doc/voicebox/melcepst.html
+
 [Data]
+
+[general]
+http://www.irisa.fr/metiss/guig/spro/spro-4.0.1/spro_2.html#SEC8
 
 [d1]
 http://dsp.stackexchange.com/questions/1793/how-important-is-the-pre-emphasis-stage-in-mfcc
+
+[d2]
+http://www.cic.unb.br/~lamar/te073/Aulas/mfcc.pdf
